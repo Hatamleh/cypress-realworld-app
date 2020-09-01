@@ -1,7 +1,61 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "t45AiwidW",
+      "uuid": "6383f84e-b511-44c5-a835-3ece1d781fa8",
+      "firstName": "hatem",
+      "lastName": "hatamleh",
+      "username": "hatamleh",
+      "password": "$2a$10$5PXHGtcsckWtAprT5/JmluhR13f16BL8SIGhvAKNP.Dhxkt69FfzW",
+      "email": "hatem@qacart.com",
+      "phoneNumber": "625-316-9882",
+      "avatar": "https://api.adorable.io/avatars/128/t45AiwidW.png",
+      "defaultPrivacyLevel": "public",
+      "balance": 100000,
+      "createdAt": "2019-08-27T23:47:05.637Z",
+      "modifiedAt": "2020-05-21T11:02:22.857Z"
+    },
+    {
+      "id": "qywYp6hS0U",
+      "uuid": "f96efce8-1909-4df4-b5cd-59883cd19c37",
+      "firstName": "tarek",
+      "lastName": "ramzi",
+      "username": "ramzi",
+      "password": "$2a$10$5PXHGtcsckWtAprT5/JmluhR13f16BL8SIGhvAKNP.Dhxkt69FfzW",
+      "email": "ramzi@hotmail.com",
+      "phoneNumber": "537-041-4355",
+      "avatar": "https://api.adorable.io/avatars/128/qywYp6hS0U.png",
+      "defaultPrivacyLevel": "public",
+      "balance": 200000,
+      "createdAt": "2019-09-09T13:48:45.489Z",
+      "modifiedAt": "2020-05-21T02:34:01.483Z"
+    }
+  ],
   "contacts": [],
-  "bankaccounts": [],
+  "bankaccounts": [
+    {
+      "id": "RskoB7r4Bic",
+      "uuid": "a45f1803-b845-42aa-9142-f5f80ea09416",
+      "userId": "t45AiwidW",
+      "bankName": "arabi bank",
+      "accountNumber": "6123387981",
+      "routingNumber": "851823229",
+      "isDeleted": false,
+      "createdAt": "2020-05-09T07:57:26.947Z",
+      "modifiedAt": "2020-05-21T22:18:50.916Z"
+    },
+    {
+      "id": "lWfxENA5ZNy",
+      "uuid": "873abef5-130d-466b-acb0-7df446937389",
+      "userId": "qywYp6hS0U",
+      "bankName": "islami bank",
+      "accountNumber": "3859571950",
+      "routingNumber": "024971142",
+      "isDeleted": false,
+      "createdAt": "2019-12-14T22:41:09.548Z",
+      "modifiedAt": "2020-05-21T09:46:44.754Z"
+    }
+  ],
   "transactions": [],
   "likes": [],
   "comments": [],
